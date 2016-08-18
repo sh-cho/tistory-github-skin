@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+    <information>
+        <name>github.io</name> 
+        <version>1.0</version>
+        <description>
+            <![CDATA[github.io 포팅]]>
+        </description>
+        <license>
+            <![CDATA[
+            MIT License
+
+            Copyright (c) 2016 seonghyeon cho
+
+            Permission is hereby granted, free of charge, to any person obtaining a copy
+            of this software and associated documentation files (the "Software"), to deal
+            in the Software without restriction, including without limitation the rights
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+            copies of the Software, and to permit persons to whom the Software is
+            furnished to do so, subject to the following conditions:
+
+            The above copyright notice and this permission notice shall be included in all
+            copies or substantial portions of the Software.
+
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+            SOFTWARE.
+            ]]>
+        </license>
+    </information> 
+    <author>
+        <name>seonghyeon cho</name>
+        <homepage>http://torbjorn.tistory.com</homepage>
+        <email>seonghyeoncho96@gmail.com</email>
+    </author> 
+    <default>
+        <recentEntries>5</recentEntries> 
+        <recentComments>5</recentComments>
+        <recentTrackbacks>5</recentTrackbacks>
+        <itemsOnGuestbook>10</itemsOnGuestbook>
+        <tagsInCloud>30</tagsInCloud>
+        <sortInCloud>3</sortInCloud> 
+        <expandComment>0</expandComment>
+        <expandTrackback>0</expandTrackback> 
+        <lengthOfRecentNotice>25</lengthOfRecentNotice>
+        <lengthOfRecentEntry>27</lengthOfRecentEntry>
+        <lengthOfRecentComment>30</lengthOfRecentComment> 
+        <lengthOfRecentTrackback>30</lengthOfRecentTrackback> 
+        <lengthOfLink>30</lengthOfLink>
+        <showListOnCategory>1</showListOnCategory>
+        <showListOnArchive>1</showListOnArchive> 
+        <commentMessage>
+            <none>No Comments</none> 
+            <single>&lt;span class="cnt"&gt;1&lt;/span&gt; Comment</single>
+        </commentMessage>
+        <trackbackMessage>
+            <none>No Trackbacks</none>
+            <single>&lt;span class="cnt"&gt;1&lt;/span&gt; Trackback</single>
+        </trackbackMessage> 
+        <tree>
+            <color>000000</color> 
+            <bgColor>ffffff</bgColor>
+            <activeColor>000000</activeColor> 
+            <activeBgColor>eeeeee</activeBgColor>
+            <labelLength>27</labelLength> 
+            <showValue>1</showValue>
+        </tree>
+        <contentWidth>630</contentWidth>
+    </default>
+</skin>
