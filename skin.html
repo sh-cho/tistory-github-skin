@@ -262,28 +262,29 @@
                   <s_rp_member>
                   <s_rp_guest>
                   <p>
-                    <input type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" />
-                    <label for="name"> : 이름 </label>
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" name="[##_rp_input_name_##]" value="[##_guest_name_##]" />
                   </p>
                   <p>
-                    <input type="password" maxlength="8" name="[##_rp_input_password_##]" value="[##_rp_admin_check_##]" />
-                    <label for="password"> : 패스워드 </label>
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" maxlength="8" name="[##_rp_input_password_##]" value="[##_rp_admin_check_##]" />
                   </p>
                   <p>
-                    <input type="text" class="homepage" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]"/>
-                    <label for="homepage"> : 홈페이지 </label>
+                    <label for="homepage">Homepage(option):</label>
+                    <input type="text" class="form-control homepage" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]"/>
                   </p>
                   </s_rp_guest>
                   <p class="secretWrap">
-                    <input type="checkbox" name="[##_rp_input_is_secret_##]" class="checkbox" />
-                    <label for="secret"> 비밀글 </label>
+                    <label for="secret">
+                      <input type="checkbox" name="[##_rp_input_is_secret_##]"> 비밀글
+                    </label>
                   </p>
                   </s_rp_member>
                   <p>
-                    <textarea name="[##_rp_input_comment_##]" rows="10" cols="50"></textarea>
+                    <textarea name="[##_rp_input_comment_##]" class="form-control" rows="10" cols="50"></textarea>
                   </p>
                   <p>
-                    <input type="submit" value="댓글 달기" onclick="[##_rp_onclick_submit_##]" />
+                    <input type="submit" class="btn btn-primary" value="댓글 달기" onclick="[##_rp_onclick_submit_##]" />
                   </p>
                 </div> 
                 </s_rp_input_form>
