@@ -67,7 +67,7 @@ ul.unstyled {
 
 
 /**
- *  CUSTOM CSS
+ *  ANOTHER POST
  */
 .another_category table tbody tr > *,
 .another_category table tbody tr {
@@ -78,9 +78,11 @@ ul.unstyled {
     margin-bottom: 0px;
 }
 
-.branch3 {
-  cursor: pointer;
+.another_category * {
+  background-color: transparent !important;
 }
+
+
 
 
 /**
@@ -253,9 +255,59 @@ ul.unstyled {
   top: 0;
 }
 
+
 /**
- *  COMMENT FORM
+ *  CATEGORY
+ */
+.category table,
+.category tbody,
+.category tr,
+.category td,
+.category th,
+.category img {
+  border: 0px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.branch3 {
+  cursor: pointer;
+}
+
+.ib {
+  cursor: pointer;
+}
+
+
+/**
+ *  COMMENT, GUESTBOOK TEXTAREA
  */
 textarea {
   resize: none;
 }
+
+
+/**
+ *  PAGINATION
+ */
+/*.pagination>li>a, .pagination>li>span {
+  border-radius: 50% !important;
+  margin: 0 5px;
+}*/
+
+/*.paging .selected {
+  background: #666;
+  color: #f40;
+}
+
+.no-more-prev, .no-more-next {
+  background: #666 !important;
+  color: #fff !important;
+}*/
+
+
+/**
+ *  SEARCH LIST
+ */
+.searchList ol, 
+.searchRplist ol  { border-top:1px solid #eee; repeat-x; list-style:none;  padding:10px 0 15px 0;  margin:0; }
