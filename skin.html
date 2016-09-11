@@ -209,7 +209,7 @@
                     <h4>Subject: <a href="[##_tb_rep_url_##]" onclick="window.open(this.href); return false" rel="external nofollow">[##_tb_rep_title_##]</a></h4>
                     <span class="from">Tracked from <span class="name"> [##_tb_rep_site_##] </span> </span>
                     <span class="date">[##_tb_rep_date_##]</span>
-                    <a href="#" onclick="[##_tb_rep_onclick_delete_##]; return false" class="delete">&nbsp;<span>삭제</span></a>
+                    <a href="#" onclick="[##_tb_rep_onclick_delete_##]; return false" class="delete"><span>삭제</span></a>
                     <p>[##_tb_rep_desc_##]</p>
                   </li>
                   </s_tb_rep>
@@ -232,9 +232,9 @@
                         <span class="name">[##_rp_rep_name_##]</span>
                         <span class="date"> [##_rp_rep_date_##]</span>
                         <span class="control">
-                          <a href="[##_rp_rep_link_##]" class="address">&nbsp;<span>댓글주소</span></a>
-                          <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">&nbsp;<span>수정/삭제</span></a>
-                          <a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write">&nbsp;<span>댓글쓰기</span></a>
+                          <a href="[##_rp_rep_link_##]" class="address"><span>댓글주소</span></a>
+                          <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify"><span>수정/삭제</span></a>
+                          <a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write"><span>댓글쓰기</span></a>
                         </span>
                         <p>[##_rp_rep_desc_##]</p>
                       </div>
@@ -246,8 +246,8 @@
                             <span class="name">[##_rp_rep_name_##]</span>
                             <span class="date"> [##_rp_rep_date_##]</span>
                             <span class="control">
-                              <a href="[##_rp_rep_link_##]" class="address">&nbsp;<span>댓글주소</span> </a>
-                              <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">&nbsp;<span>수정/삭제</span></a>
+                              <a href="[##_rp_rep_link_##]" class="address"><span>댓글주소</span> </a>
+                              <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify"><span>수정/삭제</span></a>
                             </span>
                             <p>[##_rp_rep_desc_##]</p>
                           </div>
@@ -322,13 +322,13 @@
             <!-- 페이징 -->
             <s_paging>
             <div class="paging text-center">
-              <ul class="pagination">
-              <li><a [##_prev_page_##] class="[##_no_more_prev_##]">&laquo;</a></li>
-                <s_paging_rep>
-                <li><a [##_paging_rep_link_##] class="num">[##_paging_rep_link_num_##]</a></li>
-                </s_paging_rep>
-              <li><a [##_next_page_##] class="[##_no_more_next_##]">&raquo;</a></li>
-              </ul>
+              <a [##_prev_page_##] class="[##_no_more_prev_##]">&laquo;</a>
+                <span class="numbox">
+                  <s_paging_rep>
+                    <a [##_paging_rep_link_##] class="num">[##_paging_rep_link_num_##]</a></li>
+                  </s_paging_rep>
+                </span>
+              <a [##_next_page_##] class="[##_no_more_next_##]">&raquo;</a>
             </div>
             </s_paging>
           </div>

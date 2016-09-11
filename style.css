@@ -290,20 +290,15 @@ textarea {
 /**
  *  PAGINATION
  */
-/*.pagination>li>a, .pagination>li>span {
-  border-radius: 50% !important;
-  margin: 0 5px;
-}*/
+.paging {text-align: center}
+.paging > a {background: #fff; color: #337ab7; width: 30px; height: 30px; line-height: 30px; display: inline-block; border-radius: 3px; border: 1px solid #ddd; text-decoration: none;}
+.paging a:hover {background: #eee; /*color: #fff;*/}
 
-/*.paging .selected {
-  background: #666;
-  color: #f40;
-}
+.paging a > span {background: #fff; color: #337ab7; width: 30px; height: 30px; line-height: 30px; display: inline-block; border-radius: 3px; border: 1px solid #ddd;}
+.paging a > span:hover {background: #eee; /*color: #832a1c;*/}
+.paging a > .selected {background: #337ab7 !important; color: #fff; border: 1px solid #ddd}
 
-.no-more-prev, .no-more-next {
-  background: #666 !important;
-  color: #fff !important;
-}*/
+.no-more-prev, .no-more-next {cursor: default;}
 
 
 /**
